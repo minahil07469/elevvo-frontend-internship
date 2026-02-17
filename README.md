@@ -29,5 +29,4 @@ Each task focuses on building real-world UI components and responsive web pages 
 - Loading states & clean UI  
 - Tech: HTML, CSS, JavaScript, API Integration  
 
-## 📂 Project Structure
 

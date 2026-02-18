@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1 Sidebar</title>
+    <link rel="stylesheet" href="task1.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <!-- side bar -->
+    <div class="side-bar">
+        <div class="side-container">
+            <div class="logo-part">
+                <i class='bx bx-atom'></i>
+                <span>Elevvo</span>
+            </div>
+            <i class="bx bx-menu" id="menu-toggle"></i> <!--parent side-container-->
+        </div>
+        <div class="profile-part">
+            <img src="profile-img.jpg" class="image" alt="">
+            <div class="profile-data">
+                <span style="font-weight: bold;">Minahil</span>
+            </div>
+        </div>
+        <div class="list-items">
+            <ul>
+                <li>
+                    <a href="#" id="Dashboard">
+                        <i class="bx bx-home"></i>
+                        <span class="list">Dashboard</span>
+                    </a>
+                    <span class="tool-tip">Dashboard</span>
+                </li>
+                <li>
+                    <a href="#" id="Products">
+                        <i class="bx bx-box"></i>
+                        <span class="list">Products</span>
+                    </a>
+                    <span class="tool-tip">Products</span>
+                </li>
+                <li>
+                    <a href="#" id="Categories">
+                        <i class="bx bx-category"></i>
+                        <span class="list">Categories</span>
+                    </a>
+                    <span class="tool-tip">Categories</span>
+                </li>
+                <li>
+                    <a href="#" id="Orders">
+                        <i class="bx bx-cart"></i>
+                        <span class="list">Orders</span>
+                    </a>
+                    <span class="tool-tip">Orders</span>
+                </li>
+                <li>
+                    <a href="#" id="Customers">
+                        <i class="bx bx-user"></i>
+                        <span class="list">Customers</span>
+                    </a>
+                    <span class="tool-tip">Customers</span>
+                </li>
+                <li>
+                    <a href="#" id="Shipping">
+                        <i class="bx bx-location-plus"></i>
+                        <span class="list">Shipping</span>
+                    </a>
+                    <span class="tool-tip">Shipping</span>
+                </li>
+                <li>
+                    <a href="#" id="Settings">
+                        <i class="bx bx-cog"></i>
+                        <span class="list">Settings</span>
+                    </a>
+                    <span class="tool-tip">Settings</span>
+                </li>
+                <li>
+                    <a href="#" id="Logout">
+                        <i class="bx bx-log-out"></i>
+                        <span class="list">Logout</span>
+                    </a>
+                    <span class="tool-tip">Logout</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- main content -->
+    <div class="main-content">
+    <div class="simple-content">
+        <h1>Welcome to Your Dashboard</h1>
+
+        <p>
+            This sidebar layout demonstrates a clean and responsive navigation design. 
+            You can expand or collapse the sidebar using the menu icon. 
+            Add your main content here like reports, charts, tables, or any other information. 
+            The layout adjusts smoothly for different screen sizes.
+        </p>
+
+    </div>
+</div>
+
+    <script src="task1.js"></script>
+</body>
+
+</html>
